@@ -2,7 +2,7 @@
 
 - install-uefi-in-qemu-version: june 2023
 
-- Starting from version 0.0.1, executing install-uefi-in-qemu as a superuser or with sudo privileges has been blocked. It can only be executed without superuser or sudo privileges
+- Starting from version 0.0.1, the execution of install-uefi-in-qemu has been restricted to non-superuser or non-sudo privileges. The command "ovmf-check-version" functions correctly in both superuser and sudo modes
 
 - build-latest: 0.0.1
 
