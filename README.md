@@ -42,11 +42,7 @@ sudo `ovmf-check-version` or `ovmf-check-version`
 
 - DEB2XBPS: A tool I developed based on the code of xdeb, specifically designed for Void Linux. DEB2XBPS enables the conversion of .deb packages to the .xbps  - - - format used in Void Linux, simplifying package management in this distribution. You can find the source code and additional information about DEB2XBPS in the - - following repository: https://github.com/manoel-linux/deb2xbps-shlibs-voidpackages. It is based on the xdeb.
 
-- CPU-T: version for void A command-line tool that I developed from scratch. CPU-T provides detailed information about the CPU of your system, including CPU model, number of cores - and threads, CPU frequency, supported instructions, memory information, disk information, network information, and more. It is a useful tool for system analysis - and optimization. You can find the source code and more information about CPU-T in the following repository: https://github.com/manoel-linux/cpu-t-void-linux.
-
-- CPU-T version for ubuntu/debian: https://github.com/manoel-linux/cpu-t-ubuntu-debian.
-
-- CPU-T version for Arch/Artix/Manjaro: https://github.com/manoel-linux/cpu-t-arch-artix-manjaro.
+- CPU-T A command-line tool that I developed from scratch. CPU-T provides detailed information about the CPU of your system, including CPU model, number of cores - and threads, CPU frequency, supported instructions, memory information, disk information, network information, and more. It is a useful tool for system analysis - and optimization. You can find the source code and more information about CPU-T in the following repository: https://github.com/manoel-linux/cpu-t
 
 # Project Status
 
