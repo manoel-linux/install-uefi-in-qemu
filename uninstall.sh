@@ -31,5 +31,11 @@ sudo rm -rf /usr/share/ovmf-github-ia_32/
 
 sudo rm /usr/bin/ovmf-check-version
 
-echo "DONE! Uninstallation completed."
+echo " ██████   ██████  ███    ██ ███████ ██ "
+echo " ██   ██ ██    ██ ████   ██ ██      ██ "
+echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
+echo " ██   ██ ██    ██ ██  ██ ██ ██         "
+echo " ██████   ██████  ██   ████ ███████ ██ " 
+echo "#################################################################"
+echo "Uninstallation completed."
 echo "#################################################################"
