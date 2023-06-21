@@ -2,8 +2,6 @@
 
 - install-uefi-in-qemu-version: june 2023
 
-- Starting from version 0.0.1, the execution of install-uefi-in-qemu has been restricted to non-superuser or non-sudo privileges. The command "ovmf-check-version" functions correctly in both superuser and sudo modes
-
 - build-latest: 0.0.1
 
 - install-uefi-in-qemu is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with install-uefi-in-qemu, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of install-uefi-in-qemu to add additional features.
