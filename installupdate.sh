@@ -73,7 +73,13 @@ sudo cp ovmf-check-version /usr/bin/
 
 sudo chmod +x /usr/bin/ovmf-check-version
 
-echo "DONE! Installation/Update completed."
+echo " ██████   ██████  ███    ██ ███████ ██ "
+echo " ██   ██ ██    ██ ████   ██ ██      ██ "
+echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
+echo " ██   ██ ██    ██ ██  ██ ██ ██         "
+echo " ██████   ██████  ██   ████ ███████ ██ "  
+echo "#################################################################"
+echo "Installation/Update completed."
 echo "#################################################################"
 echo "Please execute the following command to run QEMU with UEFI: 
 qemu-system-x86_64 -bios /usr/share/ovmf-github-x86_64/OVMF.fd"
@@ -110,7 +116,13 @@ sudo cp ovmf-check-version /usr/bin/
 
 sudo chmod +x /usr/bin/ovmf-check-version
 
-echo "DONE! Installation/Update completed."
+echo " ██████   ██████  ███    ██ ███████ ██ "
+echo " ██   ██ ██    ██ ████   ██ ██      ██ "
+echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
+echo " ██   ██ ██    ██ ██  ██ ██ ██         "
+echo " ██████   ██████  ██   ████ ███████ ██ "  
+echo "#################################################################"
+echo "Installation/Update completed."
 echo "#################################################################"
 echo "Please execute the following command to run QEMU with UEFI: 
 qemu-system-i386 -bios /usr/share/ovmf-github-ia_32/OVMF.fd"
@@ -155,7 +167,13 @@ sudo cp ovmf-check-version /usr/bin/
 
 sudo chmod +x /usr/bin/ovmf-check-version
 
-echo "DONE! Installation/Update completed."
+echo " ██████   ██████  ███    ██ ███████ ██ "
+echo " ██   ██ ██    ██ ████   ██ ██      ██ "
+echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
+echo " ██   ██ ██    ██ ██  ██ ██ ██         "
+echo " ██████   ██████  ██   ████ ███████ ██ "  
+echo "#################################################################"
+echo "Installation/Update completed."
 echo "#################################################################"
 echo "Please execute the following command to run QEMU with UEFI: 
 qemu-system-x86_64 -bios /usr/share/ovmf-github-x86_64/OVMF.fd
