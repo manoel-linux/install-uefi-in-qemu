@@ -2,7 +2,7 @@
 
 - install-uefi-in-qemu-version: june 2023
 
-- build-latest: 0.0.1
+- build-latest: 0.0.2
 
 - install-uefi-in-qemu is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with install-uefi-in-qemu, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of install-uefi-in-qemu to add additional features.
 
@@ -46,7 +46,7 @@ sudo `ovmf-check-version` or `ovmf-check-version`
 
 # Project Status
 
-- The install-uefi-in-qemu project is currently in development. The latest stable version is 0.0.1. We aim to provide regular updates and add more features in the future.
+- The install-uefi-in-qemu project is currently in development. The latest stable version is 0.0.2. We aim to provide regular updates and add more features in the future.
 
 # License
 
