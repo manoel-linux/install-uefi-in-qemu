@@ -30,10 +30,10 @@ echo "#################################################################"
 exit 1
 fi
 
-echo "(1)> Install the x86_64 version of QEMU UEFI"
-echo "(2)> Install the ia_32 version of QEMU UEFI"
-echo "(3)> Install the x86_64 + ia_32 version of QEMU UEFI"
-echo "(4)> Exit"
+echo "(1)> (Install) the x86_64 version of QEMU UEFI"
+echo "(2)> (Install) the ia_32 version of QEMU UEFI"
+echo "(3)> (Install) the x86_64 + ia_32 version of QEMU UEFI"
+echo "(4)> (Exit)"
 echo "#################################################################"
 
 read -p "Enter your choice: " choice
