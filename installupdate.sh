@@ -6,7 +6,7 @@ show_main_menu() {
 while true; do
 clear
 echo "#################################################################"
-echo "install-uefi-in-qemu-installer: june 2023"
+echo "install-uefi-in-qemu-installer: july 2023"
 echo "#################################################################"
 echo " ██    ██ ███████ ███████ ██ "
 echo " ██    ██ ██      ██      ██ "
