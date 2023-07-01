@@ -3,7 +3,7 @@
 
 clear
 echo "#################################################################"
-echo "install-uefi-in-qemu-uninstaller: june 2023"
+echo "install-uefi-in-qemu-uninstaller: july 2023"
 echo "#################################################################"
 echo " ██    ██ ███████ ███████ ██ "
 echo " ██    ██ ██      ██      ██ "
