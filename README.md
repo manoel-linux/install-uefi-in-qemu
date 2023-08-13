@@ -20,8 +20,6 @@
 
 - sudo `./installupdate.sh`
 
-- When installing install-uefi-in-qemu for the first time, you may encounter an error "`rm /usr/share/ovmf-github-example/OVMF.fd`" if the file doesn't exist. This removal command is part of - - the update process, but during the initial installation, the install-uefi-in-qemu file is not yet present in the `/usr/share/` directory. Therefore, you can safely ignore -- this error as it will not affect the installation of install-uefi-in-qemu. The script will proceed to copy the install-uefi-in-qemu file to the `/usr/share/` directory and set the ----- correct permissions.
-
 # For check version
 
 sudo `ovmf-check-version` or `ovmf-check-version`
