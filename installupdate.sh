@@ -6,7 +6,7 @@ show_main_menu() {
 while true; do
 clear
 echo "#################################################################"
-echo "install-uefi-in-qemu-installer: july 2023"
+echo "install-uefi-in-qemu-installer: aug 2023"
 echo "#################################################################"
 echo " ██    ██ ███████ ███████ ██ "
 echo " ██    ██ ██      ██      ██ "
@@ -30,6 +30,9 @@ echo "#################################################################"
 exit 1
 fi
 
+clear
+
+echo "#################################################################"
 echo "(1)> (Install) the x86_64 version of QEMU UEFI"
 echo "(2)> (Install) the ia_32 version of QEMU UEFI"
 echo "(3)> (Install) the x86_64 + ia_32 version of QEMU UEFI"
