@@ -67,8 +67,10 @@ done
 show_qemu-x86-64() {
 while true; do
 clear
-echo "#################################################################"
+
 sudo rm /usr/share/ovmf-github-x86_64/OVMF.fd
+
+clear
 
 sudo rm -rf /usr/share/ovmf-github-x86_64/
 
@@ -81,6 +83,8 @@ sudo rm /usr/bin/ovmf-check-version
 sudo cp ovmf-check-version /usr/bin/
 
 sudo chmod +x /usr/bin/ovmf-check-version
+
+clear
 
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
@@ -110,8 +114,10 @@ echo "#################################################################"
 show_qemu-ia-32() {
 while true; do
 clear
-echo "#################################################################"
+
 sudo rm /usr/share/ovmf-github-ia_32/OVMF.fd
+
+clear
 
 sudo rm -rf /usr/share/ovmf-github-ia_32/
 
@@ -124,6 +130,8 @@ sudo rm /usr/bin/ovmf-check-version
 sudo cp ovmf-check-version /usr/bin/
 
 sudo chmod +x /usr/bin/ovmf-check-version
+
+clear
 
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
@@ -153,8 +161,10 @@ echo "#################################################################"
 show_qemu-x86-64-ia-32() {
 while true; do
 clear
-echo "#################################################################"
+
 sudo rm /usr/share/ovmf-github-x86_64/OVMF.fd
+
+clear
 
 sudo rm -rf /usr/share/ovmf-github-x86_64/
 
@@ -175,6 +185,8 @@ sudo rm /usr/bin/ovmf-check-version
 sudo cp ovmf-check-version /usr/bin/
 
 sudo chmod +x /usr/bin/ovmf-check-version
+
+clear
 
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
