@@ -1,19 +1,17 @@
 #!/bin/bash
 
-
 clear
 echo "#################################################################"
-echo "install-uefi-in-qemu-uninstaller: july 2023"
+echo "install-uefi-in-qemu-uninstaller >> (aug 2023)"
 echo "#################################################################"
 echo " ██    ██ ███████ ███████ ██ "
 echo " ██    ██ ██      ██      ██ "
 echo " ██    ██ █████   █████   ██ "
 echo " ██    ██ ██      ██      ██ "
-echo "  ██████  ███████ ██      ██ "                                                                                                                                                  
+echo "  ██████  ███████ ██      ██ "    
 echo "#################################################################"
-echo "install-uefi-in-qemu-github: https://github.com/manoel-linux/install-uefi-in-qemu"
+echo "install-uefi-in-qemu-github >> (https://github.com/manoel-linux/install-uefi-in-qemu)"
 echo "#################################################################"
-
 
 if [[ $EUID -ne 0 ]]; then
 echo " ███████ ██████  ██████   ██████  ██████  ██ "
