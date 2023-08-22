@@ -6,7 +6,7 @@ show_main_menu() {
 while true; do
 clear
 echo "#################################################################"
-echo "install-uefi-in-qemu-installer >> (aug 2023)"
+echo "(install-uefi-in-qemu-installer) >> (aug 2023)"
 echo "#################################################################"
 echo " ██    ██ ███████ ███████ ██ "
 echo " ██    ██ ██      ██      ██ "
@@ -14,7 +14,7 @@ echo " ██    ██ █████   █████   ██ "
 echo " ██    ██ ██      ██      ██ "
 echo "  ██████  ███████ ██      ██ "    
 echo "#################################################################"
-echo "install-uefi-in-qemu-github >> (https://github.com/manoel-linux/install-uefi-in-qemu)"
+echo "(install-uefi-in-qemu-github) >> (https://github.com/manoel-linux/install-uefi-in-qemu)"
 echo "#################################################################"
 
 if [[ $EUID -ne 0 ]]; then
@@ -24,7 +24,7 @@ echo " █████   ██████  ██████  ██    █�
 echo " ██      ██   ██ ██   ██ ██    ██ ██   ██    "
 echo " ███████ ██   ██ ██   ██  ██████  ██   ██ ██ "                                                                                        
 echo "#################################################################"
-echo "Superuser privileges or sudo required to execute the script." 
+echo "(Superuser privileges or sudo required to execute the script)" 
 echo "#################################################################"
 exit 1
 fi
@@ -32,13 +32,13 @@ fi
 clear
 
 echo "#################################################################"
-echo "(1)> (Install) the x86_64 version of QEMU UEFI"
-echo "(2)> (Install) the ia_32 version of QEMU UEFI"
-echo "(3)> (Install) the x86_64 + ia_32 version of QEMU UEFI"
+echo "(1)> (Install) >> (the x86_64 version of QEMU UEFI)"
+echo "(2)> (Install) >> (the ia_32 version of QEMU UEFI)"
+echo "(3)> (Install) >> (the x86_64 + ia_32 version of QEMU UEFI)"
 echo "(4)> (Exit)"
 echo "#################################################################"
 
-read -p "Enter your choice: " choice
+read -p "(Enter your choice) >> " choice
 echo "#################################################################"
 
 case $choice in
@@ -55,7 +55,7 @@ show_qemu-x86-64-ia-32
 exit 0
 ;;
 *)
-echo "Invalid choice. Please try again."
+echo "(Invalid choice. Please try again)"
 echo "#################################################################"
 sleep 2
 ;;
@@ -85,6 +85,7 @@ sudo chmod +x /usr/bin/ovmf-check-version
 
 clear
 
+echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
 echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
@@ -93,12 +94,12 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "Installation/Update completed."
 echo "#################################################################"
-echo "Please execute the following command to run QEMU with UEFI: 
-qemu-system-x86_64 -bios /usr/share/ovmf-github-x86_64/OVMF.fd"
+echo "(Please execute the following command to run QEMU with UEFI)
+(qemu-system-x86_64 -bios /usr/share/ovmf-github-x86_64/OVMF.fd)"
 echo "#################################################################"
 echo "To check the version, use the sudo ovmf-check-version or ovmf-check-version command" 
 echo "#################################################################"
-read -rsn1 -p "press Enter to return to the main menu
+read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
 if [[ $key == "r" || $key == "R" ]]; then
 continue
@@ -132,6 +133,7 @@ sudo chmod +x /usr/bin/ovmf-check-version
 
 clear
 
+echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
 echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
@@ -140,12 +142,12 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "Installation/Update completed."
 echo "#################################################################"
-echo "Please execute the following command to run QEMU with UEFI: 
-qemu-system-i386 -bios /usr/share/ovmf-github-ia_32/OVMF.fd"
+echo "(Please execute the following command to run QEMU with UEFI)
+(qemu-system-i386 -bios /usr/share/ovmf-github-ia_32/OVMF.fd)"
 echo "#################################################################"
 echo "To check the version, use the sudo ovmf-check-version or ovmf-check-version command" 
 echo "#################################################################"
-read -rsn1 -p "press Enter to return to the main menu
+read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
 if [[ $key == "r" || $key == "R" ]]; then
 continue
@@ -187,6 +189,7 @@ sudo chmod +x /usr/bin/ovmf-check-version
 
 clear
 
+echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
 echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
@@ -195,13 +198,13 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "Installation/Update completed."
 echo "#################################################################"
-echo "Please execute the following command to run QEMU with UEFI: 
-qemu-system-x86_64 -bios /usr/share/ovmf-github-x86_64/OVMF.fd
-qemu-system-i386 -bios /usr/share/ovmf-github-ia_32/OVMF.fd"
+echo "(Please execute the following command to run QEMU with UEFI)
+(qemu-system-x86_64 -bios /usr/share/ovmf-github-x86_64/OVMF.fd)
+(qemu-system-i386 -bios /usr/share/ovmf-github-ia_32/OVMF.fd)"
 echo "#################################################################"
 echo "To check the version, use the sudo ovmf-check-version or ovmf-check-version command" 
 echo "#################################################################"
-read -rsn1 -p "press Enter to return to the main menu
+read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
 if [[ $key == "r" || $key == "R" ]]; then
 continue
