@@ -92,12 +92,12 @@ echo " ██   ██ ██    ██ ██ ██  ██ █████   
 echo " ██   ██ ██    ██ ██  ██ ██ ██         "
 echo " ██████   ██████  ██   ████ ███████ ██ "  
 echo "#################################################################"
-echo "Installation/Update completed."
+echo "(Installation/Update completed)"
 echo "#################################################################"
 echo "(Please execute the following command to run QEMU with UEFI)
 (qemu-system-x86_64 -bios /usr/share/ovmf-github-x86_64/OVMF.fd)"
 echo "#################################################################"
-echo "To check the version, use the sudo ovmf-check-version or ovmf-check-version command" 
+echo "(To check the version, use the sudo ovmf-check-version or ovmf-check-version command)" 
 echo "#################################################################"
 read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
@@ -140,12 +140,12 @@ echo " ██   ██ ██    ██ ██ ██  ██ █████   
 echo " ██   ██ ██    ██ ██  ██ ██ ██         "
 echo " ██████   ██████  ██   ████ ███████ ██ "  
 echo "#################################################################"
-echo "Installation/Update completed."
+echo "(Installation/Update completed)"
 echo "#################################################################"
 echo "(Please execute the following command to run QEMU with UEFI)
 (qemu-system-i386 -bios /usr/share/ovmf-github-ia_32/OVMF.fd)"
 echo "#################################################################"
-echo "To check the version, use the sudo ovmf-check-version or ovmf-check-version command" 
+echo "(To check the version, use the sudo ovmf-check-version or ovmf-check-version command)" 
 echo "#################################################################"
 read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
@@ -196,13 +196,13 @@ echo " ██   ██ ██    ██ ██ ██  ██ █████   
 echo " ██   ██ ██    ██ ██  ██ ██ ██         "
 echo " ██████   ██████  ██   ████ ███████ ██ "  
 echo "#################################################################"
-echo "Installation/Update completed."
+echo "(Installation/Update completed)"
 echo "#################################################################"
 echo "(Please execute the following command to run QEMU with UEFI)
 (qemu-system-x86_64 -bios /usr/share/ovmf-github-x86_64/OVMF.fd)
 (qemu-system-i386 -bios /usr/share/ovmf-github-ia_32/OVMF.fd)"
 echo "#################################################################"
-echo "To check the version, use the sudo ovmf-check-version or ovmf-check-version command" 
+echo "(To check the version, use the sudo ovmf-check-version or ovmf-check-version command)" 
 echo "#################################################################"
 read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
